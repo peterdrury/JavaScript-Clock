@@ -1,0 +1,36 @@
+body {
+  background: #0c303d;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+  color: #d0d1cb;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 5em;
+  padding-top: 15%;
+}
+
+.clock {
+  text-align: center;
+  color: #63ab3d;
+  font-size: 9rem;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    color: #d0d1cb;
+    text-align: center;
+
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding-top: 15%;
+  }
+  .clock {
+    text-align: center;
+    color: #63ab3d;
+    font-size: 3rem;
+    padding-top: 5%;
+  }
+}
